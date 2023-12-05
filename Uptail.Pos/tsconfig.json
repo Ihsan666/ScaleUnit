@@ -1,0 +1,13 @@
+{
+  "extends": "./devDependencies/pos-tsconfig-base.json",
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "baseUrl": ".",
+    "paths": {
+      "knockout": [
+        "Libraries/knockout"
+      ]
+    },
+    "noImplicitAny": false
+  }
+}
